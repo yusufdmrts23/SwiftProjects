@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9122056E2B0BFCCD0063508C /* TitleDogListText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122056D2B0BFCCD0063508C /* TitleDogListText.swift */; };
+		917A9CEC2B0A9548005CF3CD /* DogBrewListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A9CEB2B0A9548005CF3CD /* DogBrewListApp.swift */; };
+		917A9CEE2B0A9548005CF3CD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A9CED2B0A9548005CF3CD /* HomeView.swift */; };
+		917A9CF02B0A954A005CF3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917A9CEF2B0A954A005CF3CD /* Assets.xcassets */; };
+		917A9CF42B0A954A005CF3CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917A9CF32B0A954A005CF3CD /* Preview Assets.xcassets */; };
+		917A9D0B2B0AA3A7005CF3CD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A9D0A2B0AA3A7005CF3CD /* HomeViewModel.swift */; };
+		917A9D132B0ABC3D005CF3CD /* BreedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A9D122B0ABC3D005CF3CD /* BreedListView.swift */; };
+		91961C712B0BCF5800D5F615 /* BreedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91961C702B0BCF5800D5F615 /* BreedListViewModel.swift */; };
+		91AE12BF2B0BCA630079F4ED /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AE12BE2B0BCA630079F4ED /* TitleText.swift */; };
+		91AE12C12B0BCAAA0079F4ED /* SubtitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AE12C02B0BCAAA0079F4ED /* SubtitleText.swift */; };
+		91AE12C32B0BCAFE0079F4ED /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AE12C22B0BCAFE0079F4ED /* Radius.swift */; };
+		91AE12C62B0BCB1C0079F4ED /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AE12C52B0BCB1C0079F4ED /* Spacing.swift */; };
+		91AE12C82B0BCB5B0079F4ED /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AE12C72B0BCB5B0079F4ED /* LoadingView.swift */; };
+		91AE12CA2B0BCB6E0079F4ED /* DogBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AE12C92B0BCB6E0079F4ED /* DogBreed.swift */; };
+		91AE12CC2B0BCB860079F4ED /* DogDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AE12CB2B0BCB860079F4ED /* DogDataSource.swift */; };
+		91AE12CE2B0BCB9C0079F4ED /* DogDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AE12CD2B0BCB9C0079F4ED /* DogDataSourceDelegate.swift */; };
+		91D98CC62B0CBF0B00587DD0 /* RandomImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D98CC52B0CBF0B00587DD0 /* RandomImageDataSource.swift */; };
+		91D98CC82B0CBF3000587DD0 /* RandomImageDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D98CC72B0CBF3000587DD0 /* RandomImageDataSourceDelegate.swift */; };
+		91D98CCA2B0CBF9500587DD0 /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D98CC92B0CBF9500587DD0 /* DogImage.swift */; };
+		91D98CCD2B0CC04000587DD0 /* RandomImageSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D98CCC2B0CC04000587DD0 /* RandomImageSheetViewModel.swift */; };
+		91D98CCF2B0CC05B00587DD0 /* RandomImageSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D98CCE2B0CC05B00587DD0 /* RandomImageSheetView.swift */; };
+		91D98CD12B0CC15800587DD0 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D98CD02B0CC15800587DD0 /* RemoteImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9122056D2B0BFCCD0063508C /* TitleDogListText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDogListText.swift; sourceTree = "<group>"; };
+		917A9CE82B0A9548005CF3CD /* DogBrewList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogBrewList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		917A9CEB2B0A9548005CF3CD /* DogBrewListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBrewListApp.swift; sourceTree = "<group>"; };
+		917A9CED2B0A9548005CF3CD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		917A9CEF2B0A954A005CF3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		917A9CF12B0A954A005CF3CD /* DogBrewList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DogBrewList.entitlements; sourceTree = "<group>"; };
+		917A9CF32B0A954A005CF3CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		917A9D0A2B0AA3A7005CF3CD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		917A9D122B0ABC3D005CF3CD /* BreedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListView.swift; sourceTree = "<group>"; };
+		91961C702B0BCF5800D5F615 /* BreedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListViewModel.swift; sourceTree = "<group>"; };
+		91AE12BE2B0BCA630079F4ED /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
+		91AE12C02B0BCAAA0079F4ED /* SubtitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleText.swift; sourceTree = "<group>"; };
+		91AE12C22B0BCAFE0079F4ED /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		91AE12C52B0BCB1C0079F4ED /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		91AE12C72B0BCB5B0079F4ED /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		91AE12C92B0BCB6E0079F4ED /* DogBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreed.swift; sourceTree = "<group>"; };
+		91AE12CB2B0BCB860079F4ED /* DogDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDataSource.swift; sourceTree = "<group>"; };
+		91AE12CD2B0BCB9C0079F4ED /* DogDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDataSourceDelegate.swift; sourceTree = "<group>"; };
+		91D98CC52B0CBF0B00587DD0 /* RandomImageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageDataSource.swift; sourceTree = "<group>"; };
+		91D98CC72B0CBF3000587DD0 /* RandomImageDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageDataSourceDelegate.swift; sourceTree = "<group>"; };
+		91D98CC92B0CBF9500587DD0 /* DogImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
+		91D98CCC2B0CC04000587DD0 /* RandomImageSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageSheetViewModel.swift; sourceTree = "<group>"; };
+		91D98CCE2B0CC05B00587DD0 /* RandomImageSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageSheetView.swift; sourceTree = "<group>"; };
+		91D98CD02B0CC15800587DD0 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		917A9CE52B0A9548005CF3CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		917A9CDF2B0A9548005CF3CD = {
+			isa = PBXGroup;
+			children = (
+				917A9CEA2B0A9548005CF3CD /* DogBrewList */,
+				917A9CE92B0A9548005CF3CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		917A9CE92B0A9548005CF3CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				917A9CE82B0A9548005CF3CD /* DogBrewList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		917A9CEA2B0A9548005CF3CD /* DogBrewList */ = {
+			isa = PBXGroup;
+			children = (
+				917A9CFE2B0A994B005CF3CD /* DataSources */,
+				917A9CFF2B0A995A005CF3CD /* Model */,
+				917A9D002B0A9961005CF3CD /* Helpers */,
+				917A9D012B0A996A005CF3CD /* Views */,
+				917A9D022B0A99C9005CF3CD /* DesignSystem */,
+				917A9CEB2B0A9548005CF3CD /* DogBrewListApp.swift */,
+				917A9CEF2B0A954A005CF3CD /* Assets.xcassets */,
+				917A9CF12B0A954A005CF3CD /* DogBrewList.entitlements */,
+				917A9CF22B0A954A005CF3CD /* Preview Content */,
+			);
+			path = DogBrewList;
+			sourceTree = "<group>";
+		};
+		917A9CF22B0A954A005CF3CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				917A9CF32B0A954A005CF3CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		917A9CFE2B0A994B005CF3CD /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				91AE12CB2B0BCB860079F4ED /* DogDataSource.swift */,
+				91AE12CD2B0BCB9C0079F4ED /* DogDataSourceDelegate.swift */,
+				91D98CC52B0CBF0B00587DD0 /* RandomImageDataSource.swift */,
+				91D98CC72B0CBF3000587DD0 /* RandomImageDataSourceDelegate.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		917A9CFF2B0A995A005CF3CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91AE12C92B0BCB6E0079F4ED /* DogBreed.swift */,
+				91D98CC92B0CBF9500587DD0 /* DogImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		917A9D002B0A9961005CF3CD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		917A9D012B0A996A005CF3CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91D98CCB2B0CC02C00587DD0 /* ImageDisplay */,
+				917A9D112B0ABC1D005CF3CD /* BreedList */,
+				917A9D092B0AA363005CF3CD /* Home */,
+				91AE12C72B0BCB5B0079F4ED /* LoadingView.swift */,
+				91D98CD02B0CC15800587DD0 /* RemoteImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		917A9D022B0A99C9005CF3CD /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				917A9D0C2B0AA65B005CF3CD /* Text */,
+				91AE12C22B0BCAFE0079F4ED /* Radius.swift */,
+				91AE12C52B0BCB1C0079F4ED /* Spacing.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		917A9D092B0AA363005CF3CD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				917A9CED2B0A9548005CF3CD /* HomeView.swift */,
+				917A9D0A2B0AA3A7005CF3CD /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		917A9D0C2B0AA65B005CF3CD /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				91AE12BE2B0BCA630079F4ED /* TitleText.swift */,
+				91AE12C02B0BCAAA0079F4ED /* SubtitleText.swift */,
+				9122056D2B0BFCCD0063508C /* TitleDogListText.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		917A9D112B0ABC1D005CF3CD /* BreedList */ = {
+			isa = PBXGroup;
+			children = (
+				917A9D122B0ABC3D005CF3CD /* BreedListView.swift */,
+				91961C702B0BCF5800D5F615 /* BreedListViewModel.swift */,
+			);
+			path = BreedList;
+			sourceTree = "<group>";
+		};
+		91D98CCB2B0CC02C00587DD0 /* ImageDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				91D98CCC2B0CC04000587DD0 /* RandomImageSheetViewModel.swift */,
+				91D98CCE2B0CC05B00587DD0 /* RandomImageSheetView.swift */,
+			);
+			path = ImageDisplay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		917A9CE72B0A9548005CF3CD /* DogBrewList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 917A9CF72B0A954A005CF3CD /* Build configuration list for PBXNativeTarget "DogBrewList" */;
+			buildPhases = (
+				917A9CE42B0A9548005CF3CD /* Sources */,
+				917A9CE52B0A9548005CF3CD /* Frameworks */,
+				917A9CE62B0A9548005CF3CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogBrewList;
+			productName = DogBrewList;
+			productReference = 917A9CE82B0A9548005CF3CD /* DogBrewList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		917A9CE02B0A9548005CF3CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					917A9CE72B0A9548005CF3CD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 917A9CE32B0A9548005CF3CD /* Build configuration list for PBXProject "DogBrewList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 917A9CDF2B0A9548005CF3CD;
+			productRefGroup = 917A9CE92B0A9548005CF3CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				917A9CE72B0A9548005CF3CD /* DogBrewList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		917A9CE62B0A9548005CF3CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917A9CF42B0A954A005CF3CD /* Preview Assets.xcassets in Resources */,
+				917A9CF02B0A954A005CF3CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		917A9CE42B0A9548005CF3CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917A9CEE2B0A9548005CF3CD /* HomeView.swift in Sources */,
+				9122056E2B0BFCCD0063508C /* TitleDogListText.swift in Sources */,
+				917A9D0B2B0AA3A7005CF3CD /* HomeViewModel.swift in Sources */,
+				91AE12C62B0BCB1C0079F4ED /* Spacing.swift in Sources */,
+				91D98CCA2B0CBF9500587DD0 /* DogImage.swift in Sources */,
+				91D98CC82B0CBF3000587DD0 /* RandomImageDataSourceDelegate.swift in Sources */,
+				91AE12CE2B0BCB9C0079F4ED /* DogDataSourceDelegate.swift in Sources */,
+				91D98CC62B0CBF0B00587DD0 /* RandomImageDataSource.swift in Sources */,
+				91D98CD12B0CC15800587DD0 /* RemoteImage.swift in Sources */,
+				91AE12C32B0BCAFE0079F4ED /* Radius.swift in Sources */,
+				917A9D132B0ABC3D005CF3CD /* BreedListView.swift in Sources */,
+				91961C712B0BCF5800D5F615 /* BreedListViewModel.swift in Sources */,
+				917A9CEC2B0A9548005CF3CD /* DogBrewListApp.swift in Sources */,
+				91AE12C12B0BCAAA0079F4ED /* SubtitleText.swift in Sources */,
+				91AE12C82B0BCB5B0079F4ED /* LoadingView.swift in Sources */,
+				91AE12BF2B0BCA630079F4ED /* TitleText.swift in Sources */,
+				91AE12CC2B0BCB860079F4ED /* DogDataSource.swift in Sources */,
+				91D98CCF2B0CC05B00587DD0 /* RandomImageSheetView.swift in Sources */,
+				91D98CCD2B0CC04000587DD0 /* RandomImageSheetViewModel.swift in Sources */,
+				91AE12CA2B0BCB6E0079F4ED /* DogBreed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		917A9CF52B0A954A005CF3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		917A9CF62B0A954A005CF3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		917A9CF82B0A954A005CF3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DogBrewList/DogBrewList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DogBrewList/Preview Content\"";
+				DEVELOPMENT_TEAM = QZMQCYZD5B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appleYsf23.DogBrewList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		917A9CF92B0A954A005CF3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DogBrewList/DogBrewList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DogBrewList/Preview Content\"";
+				DEVELOPMENT_TEAM = QZMQCYZD5B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appleYsf23.DogBrewList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		917A9CE32B0A9548005CF3CD /* Build configuration list for PBXProject "DogBrewList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917A9CF52B0A954A005CF3CD /* Debug */,
+				917A9CF62B0A954A005CF3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917A9CF72B0A954A005CF3CD /* Build configuration list for PBXNativeTarget "DogBrewList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917A9CF82B0A954A005CF3CD /* Debug */,
+				917A9CF92B0A954A005CF3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 917A9CE02B0A9548005CF3CD /* Project object */;
+}
